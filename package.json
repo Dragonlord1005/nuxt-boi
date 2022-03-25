@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "nuxi": "^0.10.1",
-    "nuxt3": "^3.0.0-27470397.9ebea90",
+    "nuxt3": "^3.0.0-27470397.9ebea90"
   },
   "dependencies": {}
 }
