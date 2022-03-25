@@ -3125,14 +3125,14 @@ nuxi-edge@latest, "nuxi@npm:nuxi-edge@3.0.0-27470397.9ebea90":
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxi@^0.10.1:
+nuxi@0.10.1:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-0.10.1.tgz#ba1273cbbdd6fefd1d7d0cad302b988c9903461e"
   integrity sha512-QqKUzOqny6bWCKu6O5bfA0tCDir8eSQsOmaP8//NlIBJWsPuzvo9Vu5J7HAT4v1DSzDO9lkOa5E6CAoNEOtvjQ==
   dependencies:
     nuxi-edge latest
 
-nuxt3@^3.0.0-27470397.9ebea90:
+nuxt3@3.0.0-27470397.9ebea90:
   version "3.0.0-27470397.9ebea90"
   resolved "https://registry.yarnpkg.com/nuxt3/-/nuxt3-3.0.0-27470397.9ebea90.tgz#1883aecd0faaa1a247090c1b4be99bf271566974"
   integrity sha512-5/jcLXCfDgRTmTwPP6oLXL72PwGWZRXkWktfMMxeq4S3lqxZPcDQEZK4CNl5hRYDP4zwBRdPWPloKplAfesxDw==
