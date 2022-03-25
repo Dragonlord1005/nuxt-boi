@@ -1,0 +1,17 @@
+language = "nix"
+run = "yarn dev"
+
+[nix]
+channel = "unstable"
+
+[env]
+XDG_CONFIG_HOME = "/home/runner/.config"
+
+
+[packager]
+language = "nodejs"
+
+  [packager.features]
+  packageSearch = true
+  guessImports = false
+  enabledForHosting = false
