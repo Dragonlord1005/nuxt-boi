@@ -1,5 +1,5 @@
 language = "nix"
-run = "yarn dev"
+run = "yarn dev --host"
 
 [nix]
 channel = "unstable"
