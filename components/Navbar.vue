@@ -4,8 +4,8 @@ const Navbar = resolveComponent('Navbar')
 
 <template>
   <div>
-    <head class="flex items-stretch rounded-sm bg-gray-500 w-5">
-      <NuxtLink to="/">Home page</NuxtLink>
+    <head class="flex items-stretch bg-slate-800 border-slate-300">
+      <NuxtLink to="/">Home</NuxtLink>
     </head>
   </div>
 </template>
