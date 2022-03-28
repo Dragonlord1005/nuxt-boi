@@ -4456,10 +4456,10 @@ vite-node@^0.7.11:
     pathe "^0.2.0"
     vite "^2.8.6"
 
-vite@2.9.0-beta.8:
-  version "2.9.0-beta.8"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.0-beta.8.tgz#7f4df9b4a5c1a2d336ace6395991d5f92854fbac"
-  integrity sha512-8pTPiHpL7oVtNJKf7zi63XoFD7U6XfQ/e3SJWizPPzuxr8LLd09Dz28mt0ZKUltXH/jQ+1eiNY5Bgnbxff991g==
+vite@2.9.0-beta.9:
+  version "2.9.0-beta.9"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.0-beta.9.tgz#e2c5d4628c9293525acc449dbd733d6baf2a10b1"
+  integrity sha512-TCAXPSgNKzg5y+cAQFUbMRGdPNcnmyU4Q1L10teubIAAMHTmm5V/8PmVZCWohcvN8ZhIV6MDgEq9P+oosm682A==
   dependencies:
     esbuild "^0.14.27"
     postcss "^8.4.12"
