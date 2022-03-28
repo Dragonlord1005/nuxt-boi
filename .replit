@@ -1,5 +1,5 @@
 language = "nix"
-run = "yarn dev --host --https"
+run = "yarn dev --port 443"
 
 [nix]
 channel = "unstable"
