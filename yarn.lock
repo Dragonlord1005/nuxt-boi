@@ -556,7 +556,7 @@
     vite "^2.8.6"
     vite-node "^0.7.12"
 
-"@nuxtjs/tailwindcss@^5.0.2":
+"@nuxtjs/tailwindcss@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.0.2.tgz#c135983077467e1eba765dcbed18e196c34fb7cf"
   integrity sha512-uxMFiL2VsyEUSv5q4ao1ILbSGIg3sdV3364o1f8Pq0oL2K3z3qPc03Qs+fzv1wm5CrdXvE+kxCBD/Obf0+6TPg==
