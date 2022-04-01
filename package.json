@@ -7,7 +7,7 @@
     "preview": "nuxi preview"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.0.2",
+    "@nuxtjs/tailwindcss": "5.0.2",
     "nuxi": "0.10.1"
   },
   "dependencies": {
