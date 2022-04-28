@@ -1,5 +1,5 @@
 language = "nix"
-run = "yarn dev --port 443"
+run = "yarn dev"
 
 [nix]
 channel = "unstable"

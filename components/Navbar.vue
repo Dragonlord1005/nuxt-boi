@@ -1,12 +1,10 @@
-<script lang="ts" setup>
-const Navbar = resolveComponent('Navbar')
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div>
-    <head class="flex items-stretch bg-slate-800 border-slate-300">
-      <NuxtLink to="/">Home</NuxtLink>
-    </head>
+    <header>
+      
+    </header>
   </div>
 </template>
 
