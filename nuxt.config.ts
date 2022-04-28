@@ -1,12 +1,6 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
+// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  nitro: {
-    preset: 'server'
-  },
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ],
-  ssr: true
+
 })
