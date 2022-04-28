@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h1>
-        <p>Hi</p>
-    </h1>
+    <NuxtPage />
   </div>
 </template>
 
