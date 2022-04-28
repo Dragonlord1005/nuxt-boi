@@ -6,5 +6,8 @@
     <p>
         It's working so far
     </p>
+    <a href="/about">
+      Hi
+    </a>
   </div>
 </template>
