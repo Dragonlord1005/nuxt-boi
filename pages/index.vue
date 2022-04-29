@@ -1,13 +1,15 @@
 <template>
   <div>
-    <h1 class="flex justify-center font-bold text-4xl .animate-animated .animate-bounce">
+    <h1 class="flex justify-center font-bold text-4xl  ">
       Hi there
     </h1>
-    <p class=".font-sans">
+    <p>
         It's working so far
     </p>
     <NuxtLink to ="/about">
-      hi
+      <button class="btn">
+        Hi
+      </button>
     </NuxtLink>
   </div>
 </template>

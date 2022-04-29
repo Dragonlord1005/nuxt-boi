@@ -10,6 +10,7 @@ XDG_CONFIG_HOME = "/home/runner/.config"
 
 [packager]
 language = "nodejs"
+ignoredPackages = ["vue", "#app", "#head", "vue-demi"]
 
   [packager.features]
   packageSearch = true
