@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^5.0.3"
+    "@nuxtjs/tailwindcss": "^5.0.3",
+    "@windicss/plugin-animations": "^1.0.9",
+    "nuxt-windicss": "^2.3.1"
   }
 }

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1 class="flex justify-center font-bold text-4xl .light-mode">
+  <div class="dark">
+    <h1 class="flex justify-center font-bold text-4xl .animate-animated .animate-bounce">
       Hi there
     </h1>
     <p>
