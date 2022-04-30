@@ -8,7 +8,7 @@
     "check": "nuxt typecheck"
   },
   "dependencies": {
-    "daisyui": "^2.14.2",
+    "daisyui": "2.14.3",
     "nuxt": "3.0.0-rc.1"
   },
   "devDependencies": {
