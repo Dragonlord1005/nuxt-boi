@@ -24,8 +24,16 @@
           tabindex="0"
           class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li><a>Homepage</a></li>
-          <li><a>About</a></li>
+          <li>
+            <NuxtLink to="/">
+              <a>Homepage</a>
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/about">
+              <a>About</a>
+            </NuxtLink>
+          </li>
         </ul>
       </div>
     </div>
