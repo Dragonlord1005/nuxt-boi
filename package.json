@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "check": "nuxt typecheck"
+    "check": "nuxt typecheck",
+    "format": "prettier format --write ."
   },
   "dependencies": {
     "daisyui": "2.14.3",

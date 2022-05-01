@@ -1,0 +1,9 @@
+.nuxt
+nuxt.config.js
+tailwind.config.js
+replit.nix
+tsconfig.json
+yarn.lock
+package.json
+README.md
+*.json
