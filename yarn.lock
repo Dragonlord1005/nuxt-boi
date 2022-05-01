@@ -536,7 +536,7 @@
     lodash.template "^4.5.0"
     pathe "^0.2.0"
 
-"@nuxtjs/tailwindcss@^5.0.3":
+"@nuxtjs/tailwindcss@5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.0.3.tgz#96a8149d3a14f6144ce7d3a52d923bf0a36e5b31"
   integrity sha512-nkr5/K/ILQs63414JqCyBApaAE5EKZ3dq9u8O98LryS91O5pqnvhvbD6aRPmIgf6zDhFfzlfCB040GUSAa03og==
@@ -4337,7 +4337,7 @@ postcss@^8.1.10, postcss@^8.2.15, postcss@^8.4.12, postcss@^8.4.8:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prettier@^2.6.2:
+prettier@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
   integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
