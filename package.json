@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "check": "nuxt typecheck",
-    "format": "prettier format --write ."
+    "format": "prettier --write ."
   },
   "dependencies": {
     "daisyui": "2.14.3",
