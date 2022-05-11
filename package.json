@@ -11,7 +11,7 @@
   "dependencies": {
     "daisyui": "2.14.3",
     "nuxt": "3.0.0-rc.3",
-    "postcss-custom-properties": "^12.1.7"
+    "postcss-custom-properties": "12.1.7"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "3.0.3",
