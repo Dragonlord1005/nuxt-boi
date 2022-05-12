@@ -11,11 +11,13 @@
   "dependencies": {
     "daisyui": "2.14.3",
     "nuxt": "3.0.0-rc.3",
-    "postcss-custom-properties": "12.1.7"
+    "postcss-custom-properties": "12.1.7",
+    "unstorage": "^0.4.1",
+    "@nuxtjs/color-mode": "3.0.3",
+    "@nuxtjs/tailwindcss": "5.0.4"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "3.0.3",
-    "@nuxtjs/tailwindcss": "5.0.4",
+    
     "prettier": "2.6.2"
   }
 }

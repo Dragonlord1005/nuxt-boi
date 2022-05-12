@@ -26,12 +26,12 @@
         >
           <li>
             <NuxtLink to="/">
-              <a>Homepage</a>
+              Homepage
             </NuxtLink>
           </li>
           <li>
             <NuxtLink to="/about">
-              <a>About</a>
+              About
             </NuxtLink>
           </li>
         </ul>
