@@ -15,7 +15,7 @@
     "daisyui": "2.14.3",
     "nuxt": "3.0.0-rc.3",
     "postcss": "8.4.14",
-    "postcss-custom-properties": "12.1.7",
+    "postcss-custom-properties": "12.1.8",
     "unstorage": "0.4.1"
   },
   "devDependencies": {
