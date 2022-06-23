@@ -2516,6 +2516,16 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
+h3@^0.7.10:
+  version "0.7.10"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-0.7.10.tgz#3847534e441d5d59c8ae3678a5faf1a332b0ba77"
+  integrity sha512-HcUQxlOocG2uf6PQLu3Bxk0KSXcTuxSF6kRclFBDO7y74Ml0wCwTvmoN5zmrzoxbNHecDNUrcGr8qSNGcOqAHQ==
+  dependencies:
+    cookie-es "^0.5.0"
+    destr "^1.1.1"
+    radix3 "^0.1.2"
+    ufo "^0.8.4"
+
 h3@^0.7.6, h3@^0.7.8:
   version "0.7.8"
   resolved "https://registry.yarnpkg.com/h3/-/h3-0.7.8.tgz#98aab2b1128e0f4edf4515d1477e6389230d1388"
@@ -2727,6 +2737,21 @@ ioredis@^5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.0.4.tgz#0d4abfd818adfc5ef5029fddac4b8f503a1433b7"
   integrity sha512-qFJw3MnPNsJF1lcIOP3vztbsasOXK3nDdNAgjQj7t7/Bn/w10PGchTOpqylQNxjzPbLoYDu34LjeJtSWiKBntQ==
+  dependencies:
+    "@ioredis/commands" "^1.1.1"
+    cluster-key-slot "^1.1.0"
+    debug "^4.3.4"
+    denque "^2.0.1"
+    lodash.defaults "^4.2.0"
+    lodash.isarguments "^3.1.0"
+    redis-errors "^1.2.0"
+    redis-parser "^3.0.0"
+    standard-as-callback "^2.1.0"
+
+ioredis@^5.0.6:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.0.6.tgz#e50b8cc945f1f3ac932b0b8aab4bd8073d1402a9"
+  integrity sha512-KUm7wPzIet9QrFMoMm09/4bkfVKBUD9KXwBitP3hrNkZ+A6NBndweXGwYIB/7szHcTZgfo7Kvx88SxljJV4D9A==
   dependencies:
     "@ioredis/commands" "^1.1.1"
     cluster-key-slot "^1.1.0"
@@ -3043,6 +3068,19 @@ listhen@^0.2.11:
     get-port-please "^2.5.0"
     http-shutdown "^1.2.2"
     selfsigned "^2.0.1"
+
+listhen@^0.2.13:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/listhen/-/listhen-0.2.13.tgz#bd34338fe04ff9f3f08e4f83a46eefc9104b2482"
+  integrity sha512-axfyPgsrypKohOglPjzMVj+6nSQuDfdDzq92tYEg4HO+YkvvMGz0bGeoGA+pdEC7a8gbIgLduf/62Pkk1a9jMQ==
+  dependencies:
+    clipboardy "^3.0.0"
+    colorette "^2.0.16"
+    defu "^6.0.0"
+    get-port-please "^2.5.0"
+    http-shutdown "^1.2.2"
+    selfsigned "^2.0.1"
+    ufo "^0.8.4"
 
 loader-utils@^2.0.0:
   version "2.0.2"
@@ -3449,6 +3487,11 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
+node-fetch-native@^0.1.3:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-0.1.4.tgz#09b06754f9e298bac23848050da2352125634f89"
+  integrity sha512-10EKpOCQPXwZVFh3U1ptOMWBgKTbsN7Vvo6WVKt5pw4hp8zbv6ZVBZPlXw+5M6Tyi1oc1iD4/sNPd71KYA16tQ==
+
 node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
@@ -3676,6 +3719,16 @@ ohmyfetch@^0.4.16:
     node-fetch "^3.2.4"
     ufo "^0.8.3"
     undici "^5.0.0"
+
+ohmyfetch@^0.4.18:
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/ohmyfetch/-/ohmyfetch-0.4.18.tgz#2952e04bd52662d0618d3d2f344db0250c3eeac2"
+  integrity sha512-MslzNrQzBLtZHmiZBI8QMOcMpdNFlK61OJ34nFNFynZ4v+4BonfCQ7VIN4EGXvGGq5zhDzgdJoY3o9S1l2T7KQ==
+  dependencies:
+    destr "^1.1.1"
+    node-fetch-native "^0.1.3"
+    ufo "^0.8.4"
+    undici "^5.2.0"
 
 on-finished@2.4.1, on-finished@^2.3.0:
   version "2.4.1"
@@ -5076,6 +5129,11 @@ undici@^5.0.0:
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.2.0.tgz#18c5bd59f8f1b1ed8dcc9dca2f754c44ec994059"
   integrity sha512-XY6+NS3WH9b3TKOHeNz2CjR+qrVz/k4fO9g3etPpLozRvULoQmZ1+dk9JbIz40ehn27xzFk4jYVU2MU3Nle62A==
 
+undici@^5.2.0:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.5.1.tgz#baaf25844a99eaa0b22e1ef8d205bffe587c8f43"
+  integrity sha512-MEvryPLf18HvlCbLSzCW0U00IMftKGI5udnjrQbC5D4P0Hodwffhv+iGfWuJwg16Y/TK11ZFK8i+BPVW2z/eAw==
+
 unenv@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/unenv/-/unenv-0.5.1.tgz#da0b6e1c44badfa81e89c262bf33d4eac71abba0"
@@ -5155,7 +5213,23 @@ unplugin@^0.6.3:
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.4.3"
 
-unstorage@0.4.1, unstorage@^0.4.1:
+unstorage@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-0.5.2.tgz#b7d0dc39a73bf1ccb1a7d39caf96e5c437f2988f"
+  integrity sha512-TgSkgTsHNWkXfFHA6zKmjSqHPn8uvpTj0SOgpLKyR15SWakCqnMUo3Yl3lQ5NBP61chJtCKAHwTB/27YvsZCjw==
+  dependencies:
+    anymatch "^3.1.2"
+    chokidar "^3.5.3"
+    destr "^1.1.1"
+    h3 "^0.7.10"
+    ioredis "^5.0.6"
+    listhen "^0.2.13"
+    mri "^1.2.0"
+    ohmyfetch "^0.4.18"
+    ufo "^0.8.4"
+    ws "^8.8.0"
+
+unstorage@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-0.4.1.tgz#66d174886f017a5ceef567b8f007c5966b4690f4"
   integrity sha512-nK2XsRV2lfB6aNCuoatsQUhRVMnDDP5pm3D4UrgRMxP3D57Rn5+dx3aNaLCi5rcq6QAdOmhjyBvKcW8d3PY+Sw==
@@ -5391,6 +5465,11 @@ ws@^8.6.0:
   version "8.6.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.6.0.tgz#e5e9f1d9e7ff88083d0c0dd8281ea662a42c9c23"
   integrity sha512-AzmM3aH3gk0aX7/rZLYvjdvZooofDu3fFOzGqcSnQ1tOcTWwhM/o+q++E8mAyVVIyUdajrkzWUGftaVSDLn1bw==
+
+ws@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.8.0.tgz#8e71c75e2f6348dbf8d78005107297056cb77769"
+  integrity sha512-JDAgSYQ1ksuwqfChJusw1LSJ8BizJ2e/vVu5Lxjq3YvNJNlROv1ui4i+c/kUUrPheBvQl4c5UbERhTwKa6QBJQ==
 
 xtend@^4.0.2:
   version "4.0.2"

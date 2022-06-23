@@ -16,7 +16,7 @@
     "nuxt": "3.0.0-rc.3",
     "postcss": "8.4.14",
     "postcss-custom-properties": "12.1.7",
-    "unstorage": "0.4.1"
+    "unstorage": "0.5.2"
   },
   "devDependencies": {
     "prettier": "2.6.2"
