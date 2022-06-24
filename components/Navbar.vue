@@ -1,47 +1,22 @@
-<script lang="ts" setup></script>
+<!-- We need a nuxt 3 navbar -->
+<!-- We need it to have a menu with links to the different pages. -->
+<!-- It needs to be responsive -->
+<!-- We will add links and names using arguments as an array -->
+<!-- We will also use tailwindcss to style the navbar. -->
+<!-- we will be using daisyui for navbar components -->
+<!-- It will also be in typescript -->
+<script lang="ts">
+</script>
 
 <template>
-  <div class="navbar bg-base-100">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost btn-circle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h7"
-            />
-          </svg>
-        </label>
-        <ul
-          tabindex="0"
-          class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-        >
-          <li>
-            <NuxtLink to="/">
-              Homepage
-            </NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/about">
-              About
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
+  <div>
+    <div class="navbar bg-base-100">
+      <!-- <div class="navbar-center"> -->
+      <a class="btn btn-ghost">daisyui</a>
+      <!-- </div> -->
     </div>
-    <div class="navbar-center">
-      <a class="btn btn-ghost normal-case text-xl">Next-boi</a>
-    </div>
-    <div class="navbar-end"></div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
