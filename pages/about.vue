@@ -1,7 +1,5 @@
 <template>
   <div>
-    <h1>
-      <p>Hi</p>
-    </h1>
+    <h1 class="text-5xl">About</h1>
   </div>
 </template>

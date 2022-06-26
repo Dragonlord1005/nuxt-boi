@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1 class="flex justify-center font-bold text-4xl">Hi there</h1>
-    <p>It's working so far</p>
+    <h1 class="text-5xl flex justify-center">Home</h1>
+    <p class="text-m">Vue is so cool</p>
+    <p class="text-m">Better than React</p>
   </div>
 </template>
