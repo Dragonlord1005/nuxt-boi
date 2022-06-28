@@ -9,7 +9,7 @@
     <div>
         <h1 class="text-5xl flex justify-center">Posts</h1>
         <div>
-            <Button name="First Post" link="/posts/first-post"></Button>
+            <Button name="First Post" link="/posts/1"></Button>
         </div>
     </div>
 </template>
