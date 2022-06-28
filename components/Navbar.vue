@@ -11,7 +11,7 @@
 <template>
   <header class="bg-gray-900">
     <div
-      class="container flex mx-auto px-4 py-16 flex flex-col lg:flex-row justify"
+      class="container flex mx-auto px-4 py-16 lg:flex-row justify"
     >
       <!-- Navigation -->
       <div class="flex-1">
