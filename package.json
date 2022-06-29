@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "check": "nuxt typecheck",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "cypress open"
   },
   "dependencies": {
     "nuxt": "3.0.0-rc.4",
