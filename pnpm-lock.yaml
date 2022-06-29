@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@headlessui/vue': 1.6.5
   '@types/node': 18.0.0
-  '@vitejs/plugin-vue': 2.3.3
   cypress: 10.3.0
   nuxt: 3.0.0-rc.4
   nuxt-windicss: ^2.4.2
@@ -22,7 +21,6 @@ dependencies:
 devDependencies:
   '@headlessui/vue': 1.6.5_vue@3.2.37
   '@types/node': 18.0.0
-  '@vitejs/plugin-vue': 2.3.3_vite@2.9.13+vue@3.2.37
   cypress: 10.3.0
   nuxt-windicss: 2.4.2_vite@2.9.13+webpack@5.73.0
   prettier: 2.7.1
@@ -918,6 +916,7 @@ packages:
     dependencies:
       vite: 2.9.13
       vue: 3.2.37
+    dev: false
 
   /@vue/babel-helper-vue-transform-on/1.0.2:
     resolution: {integrity: sha512-hz4R8tS5jMn8lDq6iD+yWL6XNB699pGIVLk7WSJnn1dbpjaazsjZQkieJoRX6gW5zpYSCFqQ7jUquPNY65tQYA==}
