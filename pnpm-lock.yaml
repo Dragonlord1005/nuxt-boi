@@ -5,7 +5,7 @@ specifiers:
   '@types/node': 18.0.0
   cypress: 10.3.0
   nuxt: 3.0.0-rc.4
-  nuxt-windicss: ^2.4.2
+  nuxt-windicss: 2.4.2
   prettier: 2.7.1
   ufo: 0.8.4
   vite: 2.9.13
@@ -2166,7 +2166,7 @@ packages:
     dev: true
 
   /ee-first/1.1.1:
-    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
+    resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
   /electron-to-chromium/1.4.170:
     resolution: {integrity: sha512-rZ8PZLhK4ORPjFqLp9aqC4/S1j4qWFsPPz13xmWdrbBkU/LlxMcok+f+6f8YnQ57MiZwKtOaW15biZZsY5Igvw==}
