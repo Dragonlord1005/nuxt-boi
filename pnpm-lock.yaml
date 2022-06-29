@@ -6,7 +6,7 @@ specifiers:
   '@nuxtjs/tailwindcss': 5.1.3
   '@types/node': 18.0.0
   '@vitejs/plugin-vue': 2.3.3
-  cypress: 10.2.0
+  cypress: 10.3.0
   nuxt: 3.0.0-rc.4
   prettier: 2.7.1
   ufo: 0.8.4
@@ -26,7 +26,7 @@ devDependencies:
   '@nuxtjs/tailwindcss': 5.1.3_vite@2.9.13+webpack@5.73.0
   '@types/node': 18.0.0
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.13+vue@3.2.37
-  cypress: 10.2.0
+  cypress: 10.3.0
   prettier: 2.7.1
   vite: 2.9.13
 
@@ -1990,8 +1990,8 @@ packages:
   /cuint/0.2.2:
     resolution: {integrity: sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==}
 
-  /cypress/10.2.0:
-    resolution: {integrity: sha512-+i9lY5ENlfi2mJwsggzR+XASOIgMd7S/Gd3/13NCpv596n3YSplMAueBTIxNLcxDpTcIksp+9pM3UaDrJDpFqA==}
+  /cypress/10.3.0:
+    resolution: {integrity: sha512-txkQWKzvBVnWdCuKs5Xc08gjpO89W2Dom2wpZgT9zWZT5jXxqPIxqP/NC1YArtkpmp3fN5HW8aDjYBizHLUFvg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
