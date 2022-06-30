@@ -1,4 +1,8 @@
 {
     "nuxt.isNuxtApp": true,
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "frontMatter.framework.startCommand": "pnpm run dev",
+    "frontMatter.preview.host": "http://localhost:3000",
+    "[markdown]": {
+    }
 }

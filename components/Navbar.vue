@@ -10,16 +10,24 @@
 
 <template>
   <header class="bg-gray-900">
-    <div
-      class="container flex mx-auto px-4 py-16 lg:flex-row justify"
-    >
+    <div class="container flex mx-auto px-4 py-16 lg:flex-row justify">
       <!-- Navigation -->
       <div class="flex-1">
-        <NuxtLink to="/" class="text-white text-2xl font-bold hover:text-yellow-300">Home</NuxtLink>
-        <NuxtLink to="/about" class="text-white text-2xl font-bold hover:text-yellow-300">
+        <NuxtLink
+          to="/"
+          class="text-white text-2xl font-bold hover:text-yellow-300"
+          >Home</NuxtLink
+        >
+        <NuxtLink
+          to="/about"
+          class="text-white text-2xl font-bold hover:text-yellow-300"
+        >
           About
         </NuxtLink>
-        <NuxtLink to="/blog" class="text-white text-2xl font-bold hover:text-yellow-300">
+        <NuxtLink
+          to="/blog"
+          class="text-white text-2xl font-bold hover:text-yellow-300"
+        >
           Blog
         </NuxtLink>
       </div>

@@ -7,3 +7,6 @@ yarn.lock
 package.json
 README.md
 *.json
+assets
+content
+.unlighthouse
