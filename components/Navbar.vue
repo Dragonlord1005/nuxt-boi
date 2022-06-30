@@ -19,8 +19,8 @@
         <NuxtLink to="/about" class="text-white text-2xl font-bold hover:text-yellow-300">
           About
         </NuxtLink>
-        <NuxtLink to="/posts" class="text-white text-2xl font-bold hover:text-yellow-300">
-          Posts
+        <NuxtLink to="/blog" class="text-white text-2xl font-bold hover:text-yellow-300">
+          Blog
         </NuxtLink>
       </div>
 

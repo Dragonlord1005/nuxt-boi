@@ -12,13 +12,13 @@ describe('Navigation Testing', () => {
 
 
 
-  it("Posts Page", () => {
+  it("Blog Page", () => {
     cy.visit("localhost:3000");
 
-    cy.contains("Posts").click();
-    cy.url().should("include", "/posts");
+    cy.contains("Blog").click();
+    cy.url().should("include", "/blog");
 
     cy.contains("First Post").click();
-    cy.url().should("include", "/posts/1");
+    cy.url().should("include", "/blog/1");
   });
 })
