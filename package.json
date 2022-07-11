@@ -20,7 +20,7 @@
     "@types/node": "18.0.0",
     "@unlighthouse/nuxt": "0.3.29",
     "cypress": "10.3.0",
-    "nuxt-windicss": "2.4.2",
+    "nuxt-windicss": "2.4.3",
     "prettier": "2.7.1",
     "vite": "2.9.13"
   }
