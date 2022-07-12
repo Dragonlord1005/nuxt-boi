@@ -16,7 +16,7 @@
     "webpack": "5.73.0"
   },
   "devDependencies": {
-    "@headlessui/vue": "1.6.5",
+    "@headlessui/vue": "1.6.7",
     "@types/node": "18.0.0",
     "@unlighthouse/nuxt": "0.3.29",
     "cypress": "10.3.0",
