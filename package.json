@@ -10,8 +10,8 @@
     "test": "cypress open"
   },
   "dependencies": {
-    "nuxt": "3.0.0-rc.4",
-    "ufo": "0.8.4",
+    "nuxt": "3.0.0-rc.6",
+    "ufo": "0.8.5",
     "vue": "3.2.37",
     "webpack": "5.73.0"
   },
